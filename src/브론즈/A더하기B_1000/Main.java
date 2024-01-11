@@ -1,4 +1,4 @@
-package 브론즈.AB_1000;
+package 브론즈.A더하기B_1000;
 
 import java.util.Scanner;
 
