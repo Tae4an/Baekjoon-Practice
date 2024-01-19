@@ -12,5 +12,6 @@ public class Main {
         double sum = A / B;
 
         System.out.println(sum);
+
     }
 }
