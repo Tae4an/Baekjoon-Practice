@@ -14,13 +14,15 @@ public class Main {
 
         int sumRev = reverse(revX + revY); // 두 수의 합을 역순으로 만듦
 
-        System.out.println(sumRev); // 결과 출력
+        System.out.println(sumRev);
+
         scanner.close();
     }
 
     // 주어진 수의 자리수를 역순으로 만드는 함수
     public static int reverse(int number) {
         int reversed = 0;
+
         while (number > 0) {
             reversed = reversed * 10 + number % 10; // 마지막 자리수를 reversed의 다음 자리로 이동
             number /= 10; // number의 마지막 자리수 제거
