@@ -26,5 +26,7 @@ public class Main {
         }
 
         System.out.println(throwsCount); // 공을 던진 총 횟수 출력
+        
+        
     }
 }
